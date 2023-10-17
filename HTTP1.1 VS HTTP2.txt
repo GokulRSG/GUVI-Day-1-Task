@@ -1,0 +1,21 @@
+HTTP1.1
+-----------------------------------------------------------------
+--> HTTP/1.1 transfer all the requests & responses in the plain text message form. 
+
+--> TCP connection will block all other requests until a response is received.
+
+--> All information related to the header file is repeated on each request.
+
+
+HTTP 2
+--------------------------------------------------------------------
+
+--> HTTP/2 was developed over the SPDY protocol(developed for transporting web content).
+
+--> HTTP/2 works on the binary framing layer instead of textual that converts all the messages in binary format.
+
+--> It works on fully multiplexed that is one TCP connection is used for multiple requests.
+
+--> HPACK used to split data from header and compress the header. 
+
+--> It uses PUSH frame by server that collects all multiple pages.
